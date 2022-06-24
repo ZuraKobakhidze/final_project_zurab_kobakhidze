@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ZBlack"
+    android:gravity="bottom"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/ZWhite"
+            android:textSize="26sp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/login_title"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:id="@+id/emailText"
+                    android:hint="@string/login_email_hint"
+                    android:textColor="@color/ZBlack"
+                    android:textAlignment="textStart"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:background="@drawable/z_edit_text"
+                    android:textColorHint="@color/ZBlack"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:id="@+id/passwordText"
+                    android:hint="@string/login_password_hint"
+                    android:textColor="@color/ZBlack"
+                    android:textAlignment="textStart"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:background="@drawable/z_edit_text"
+                    android:textColorHint="@color/ZBlack"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/logInButton"
+                    android:text="@string/login_login"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/ZOrange"
+                    android:background="@drawable/z_button_not_filled"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/registerButton"
+                    android:text="@string/login_register"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/ZWhite"
+                    android:background="@drawable/z_button_filled"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

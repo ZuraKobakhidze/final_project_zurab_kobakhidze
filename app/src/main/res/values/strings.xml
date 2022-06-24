@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">final_project_zurab_kobakhidze</string>
+    <string name="login_email_hint">example@email.com</string>
+    <string name="login_password_hint">•••••••</string>
+    <string name="login_register">REGISTER</string>
+    <string name="login_login">LOG IN</string>
+    <string name="login_title">Login</string>
+
+    <string name="register_email_hint">example@email.com</string>
+    <string name="register_password_hint">•••••••</string>
+    <string name="register_already_have_an_account">Already have an account</string>
+    <string name="register_create_an_account">CREATE AN ACCOUNT</string>
+    <string name="register_title">Registration</string>
+
+    <string name="home_title">WeatherApp</string>
+    <string name="home_city_hint">Enter city</string>
+    <string name="home_add_city">ADD CITY</string>
+
+</resources>

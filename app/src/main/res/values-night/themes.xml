@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Final_project_zurab_kobakhidze" parent="Theme.AppCompat.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ZBlack</item>
+        <item name="colorPrimaryVariant">@color/ZBlack</item>
+        <item name="colorOnPrimary">@color/ZWhite</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ZBlack</item>
+        <item name="colorSecondaryVariant">@color/ZBlack</item>
+        <item name="colorOnSecondary">@color/ZWhite</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
